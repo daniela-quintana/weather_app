@@ -17,7 +17,7 @@ function Login() {
   })
 
   const onSubmit = () => {
-    <Link to="/weather" />
+    <Link to="/pronostico-por-region" />
     console.log('submit');
   }
 
@@ -48,7 +48,7 @@ function Login() {
                 <ErrorMessage name="password" />
               ) : null}
               <br />
-              <button type="submit"><Link className="signup" to="/weather"
+              <button type="submit"><Link className="signup" to="/pronostico-por-region"
                 state={!errors}>Iniciar sesión</Link></button>
             </form>
           )}

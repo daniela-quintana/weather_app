@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div className="App">
         <Route exact path="/" component={Login} />
-        <Route exact path="/weather" component={Weather} />
+        <Route exact path="/pronostico-por-region" component={Weather} />
       </div>
     </Router>
   );
