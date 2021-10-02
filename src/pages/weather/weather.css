@@ -1,0 +1,9 @@
+select {
+    word-wrap: normal;
+    width: auto;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    font-size: x-large !important;
+    width: -webkit-fill-available;
+}
